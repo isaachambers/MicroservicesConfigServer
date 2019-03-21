@@ -1,0 +1,21 @@
+Steps of configuring a cloud config server.
+
+
+git pull origin my_remote_branch
+
+1. Create a Properties Repo. In this case. Configurations for this application is saved here.
+
+https://github.com/isaachambers/ConfigurationProperties
+
+
+Configurations will be loaded by profiles and application names. 
+
+
+Set Application Port, cloud config repo, and set spring basic security authentication properties.
+
+spring.security.user.name=admin
+spring.security.user.password=admin
+
+
+
+ 
